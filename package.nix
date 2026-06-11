@@ -29,7 +29,7 @@ let
 
     installPhase = ''
       mkdir -p $out/share/cheat-engine
-      cp -r . $out/share/cheat-engine/
+      cp -r CheatEngineLinux77/. $out/share/cheat-engine/
       chmod +x $out/share/cheat-engine/cheatengine-x86_64
     '';
 
